@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('GIT CHECKOUT') {
             steps {
-                git 'https://github.com/aja6009/jenkins-resources'
+                git 'https://github.com/aja6009/pipecode'
             }
         }
         stage('MAVEN BUILD') {
